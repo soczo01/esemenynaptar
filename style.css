@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#naptar {
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+#fejlec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+#datum {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#racs {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.nap {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #e9e9e9;
+    border: 1px solid #ddd;
+}
